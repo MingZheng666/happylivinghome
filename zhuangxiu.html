@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>happylivinghomeimprovement</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      /*background-color: #2c3e50;*/
+      background-image: url(image/01.png );
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 90px 0;
+    }
+
+    nav {
+      background: #34495e;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background: #eae8e8;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: calc(33.333% - 10px);
+      height: auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="color: black;">HAPPY LIVING HOME</h1>
+    <h1 style="color: black;">IMPROVEMENT</h1>
+    <p style="color: black;font-size: 29px;" >Transforming Spaces, Enhancing Lives</p>
+  </header>
+
+  <nav>
+  <a href="#about">Company Profile</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Case Display</a>  <!-- 跳转到新页面 -->
+  <a href="#contact">Contact Us</a>
+</nav>
+
+  <div class="container">
+
+    <section id="about">
+    <h2>Company Profile</h2>
+      <p>We focus on high-quality interior design and decoration, </p>
+      <p>providing one-stop service, covering every link from design to construction.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Commercial</li>
+        <li>Residential</li>
+        <li>Remodeling</li>
+        <li>Improvements</li>
+        <li>Electrical</li>
+        <li>Plumbing</li>
+        <li>HVAC</li>
+        <li>Licensee & Insured</li>
+        <li>Government Registered</li>
+
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Case Display</h2>
+      <div class="gallery">
+        <img src="image/25.jpeg">
+        <img src="image/3.jpeg">
+        <img src="image/19.jpeg">
+        <img src="image/20.jpeg">
+        <img src="image/22.jpeg">
+        <img src="image/23.jpeg">
+      </div>
+      <br>
+      <br>
+      <a href="gallery.html" class="To">More</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Name:SCOTT ZOU MH1C#155892</p>
+      <p>Phone:301-538-9893</p>
+      <p>Email:2726909@GMAIL.COM</p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 HAPPY LIVING HOME IMPROVEMENT INC. All RIGHTS RESERVED.
+  </footer>
+
+</body>
+</html>
